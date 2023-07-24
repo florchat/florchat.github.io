@@ -5,20 +5,28 @@ body{
 }
 
 #logo{
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: block;
 }
 
 header h1 a{
     text-decoration: none;
     color: #1b5e20;
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+    display: block;
+    line-height: 0px;
    
 }
 
 .botonesrrss{
-   height: 40px;
-   width: 40px;
-   padding: 5px;
+   height: 30px;
+   width: 30px;
+   padding: 1px;
+   margin: 0px, 0px, 0px, 0px;
 }
 
 .botonerainferior{
@@ -26,10 +34,11 @@ text-decoration: none;
 list-style-type: none;
 margin: 20px;
 text-transform: uppercase;
-
+text-align: center;
 }
 
 .botonerainferior a{
+    text-align: center;
     margin: 0 auto;
     height: 50px;
     width: 150px;
@@ -54,10 +63,11 @@ border-color: #CDDC39;
 
 
 #descripcion{
-    width: 320px;
-    height: 180px;
+    width: 340px;
+    height: 160px;
     margin: 0 auto;
-    margin-top: 20px;
+    text-align: center;
+    margin-top: 0px;
     margin-bottom: 0px;
     padding: 10px;
     color: #1b5e20;
