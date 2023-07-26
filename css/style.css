@@ -26,7 +26,7 @@ header h1 a{
 .botonesrrss{
    height: 30px;
    width: 30px;
-   padding: 1px;
+   padding: 3px;
    margin: 0px, 0px, 0px, 0px;
 }
 
@@ -83,4 +83,8 @@ border-color: #CDDC39;
 footer{
     color: #1b5e20;
     font-size: 10px; 
+}
+
+#microscopico {
+    text-decoration: none;
 }
