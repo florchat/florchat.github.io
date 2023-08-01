@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav a{
+    color:grey;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+header nav .iconapps span{
+    display: inline-block;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+header nav .iconapps span:hover{
+    background-color: #eeeeee;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    text-align: center;
+    margin-top: 110px;
+}
+
+main .logocentral{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .logocentral img{
+    max-height: 60%;
+    max-width: 60%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    vertical-align: bottom;
+}
+
+
+main .inputbuscador{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .contenedorinput{
+    width: 580px;
+    border-radius: 100px;
+    border: 1px solid #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .contenedorinput:hover{
+   box-shadow: 4px 4px 4px 4px #f5f5f5;
+}
+
+main .contenedorinput input{
+    background-color: transparent;
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+main .contenedorinput span{
+    color: gray;
+}
+
+main .botonesbuscador{
+    width: 530px;
+    margin: 0 auto; 
+    
+}
+
+main .botonesbuscador div{
+    display: inline-block;
+}
+
+main .botonesbuscador div button{
+    height: 36px;
+    background-color: #eeeeee;
+    border: 0;
+    font-size: 14px;
+    color: grey;
+    border-radius: 5%;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+}
+
+main .botonesbuscador div button:hover{
+    border: 1px solid #e0e0e0;
+}
+
+.idiomasgoogle:visited{
+        color: darkblue;
+}
+.idiomasgoogle{
+    text-decoration: none;
+    
+}
+
+.idiomasgoogle:hover{
+    text-decoration: underline;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    align-items: flex-end;
+    background: #eeeeee;
+    padding-top: 10px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer .pais{
+    padding: 5px 0;
+}
+
+footer .pais a{
+    text-decoration: none;
+    justify-content: flex-start;
+    margin-left: 30px;
+    font-size: 14px;
+    color: gray;
+}
+
+footer .botonesfooter{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    padding: px 0;
+}
+
+footer .botonesfooter a{
+    text-decoration: none;
+    color: gray;
+    margin: 10px;
+    display: inline-block;
+    font-size: 13.5px;
+}
+
+footer .botonesfooter a:hover{
+    text-decoration: underline;
+}
